@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.879);
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 72px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 32px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-family:'Courier New', Courier, monospace;
+    color: antiquewhite;
+    text-align: center;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+}
+
+#what-is-it {
+    width: 420px;
+    text-align: left;
+    border: solid 3px rgba(227, 214, 214, 0.846);
+    margin-left: 30px;
+    box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
+}
+
+#what-is-it p {
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#challenges {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 300px;
+}
+
+#challenges h2 {
+    border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+    border-right: 2px solid rgba(227, 214, 214, 0.846);;
+    width: 200px;
+    box-shadow: 4px 4px 4px 1px rgba(227, 214, 214, 0.507);
+}
+
+#mistakes {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+#mistakes h2 {
+    border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+    border-left: 2px solid rgba(227, 214, 214, 0.846);;
+    width: 200px;
+    box-shadow: -6px 4px 4px 1px rgba(227, 214, 214, 0.507);
+}
+
+#demo {
+    display: flex;
+    justify-content: center;
+}
+
+#demo a {
+    font-size: 28px;
+    border: 4px solid rgba(227, 214, 214, 0.846);
+    border-radius: 5px;
+    color: rgba(227, 214, 214, 0.846);
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(249, 246, 246, 0.112);
+    box-shadow: 2px 4px 8px 8px #000000;
+}
+
+#demo a:hover {
+    box-shadow: 2px 4px 8px 8px #ffffffb0;
+    border: 8px solid rgba(227, 214, 214, 0.846);
+    font-weight: 700;
+    text-decoration: none;
+}
