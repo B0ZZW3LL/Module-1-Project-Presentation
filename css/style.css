@@ -61,6 +61,7 @@ ul {
     padding: 10px 20px 10px 20px;
     background-color: rgba(249, 246, 246, 0.112);
     box-shadow: 2px 4px 8px 8px #000000;
+    font-family: 'Special Elite', cursive;
 }
 
 #page-links a:hover {
@@ -68,6 +69,29 @@ ul {
     border: 8px solid rgba(227, 214, 214, 0.846);
     font-weight: 700;
     text-decoration: none;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    background-color: #000000;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+#nav-bar a {
+    color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+    border: 2px solid rgba(227, 214, 214, 0.846);
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 1px 1px 5px 1px #ffffffb0;
 }
 
 #map-image img {

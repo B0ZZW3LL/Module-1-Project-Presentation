@@ -40,6 +40,30 @@ p {
     color: white;
 }
 
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    background-color: #000000;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    list-style: none;
+}
+
+#nav-bar a {
+    color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+    border: 2px solid rgba(227, 214, 214, 0.846);
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 1px 1px 5px 1px #ffffffb0;
+}
+
 #what-is-it {
     width: 420px;
     text-align: left;
@@ -69,13 +93,14 @@ p {
 }
 
 #game-space {
-    border: 2px solid white
+    border: solid 3px rgba(227, 214, 214, 0.846);
+    box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
 }
 
 #mistakes {
     display: flex;
     justify-content: flex-start;
-    margin-left: 40px;
+    margin-left: 100px;
     padding-top: 40px;
 }
 

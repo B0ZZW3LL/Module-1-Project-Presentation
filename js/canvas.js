@@ -20,7 +20,7 @@ window.onload = () => {
 
             draw: function() {
                 ctx.fillRect(this.x, this.y, this.width, this.height);
-                ctx.fillStyle = 'rgba(21, 18, 18, 0.909)';
+                ctx.fillStyle = 'rgb(11, 11, 9)';
             },
 
             right() {
@@ -43,7 +43,6 @@ window.onload = () => {
             },
 
             draw: function() {
-               // ctx.fillstyle ='antiquewhite';
                 ctx.fillRect(this.x, this.y, this.width, this.height);
                 ctx.fillStyle = 'black';
             },
