@@ -1,134 +1,277 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.879);
+@media (min-width:1px) and (max-width: 749px)  {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.879);
+    }
+
+    h1 {
+        font-family: 'Special Elite', cursive;
+        font-size: 72px;
+        color: antiquewhite;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-family: 'Special Elite', cursive;
+        font-size: 32px;
+        color: antiquewhite;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-family:'Courier New', Courier, monospace;
+        color: antiquewhite;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-family:'Courier New', Courier, monospace;
+        color:antiquewhite;
+        text-align: center;
+    }
+
+    p {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 18px;
+        color: white;
+    }
+
+    #nav-bar {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        background-color: #000000;
+    }
+
+    #nav-bar ul {
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+        list-style: none;
+    }
+
+    #nav-bar a {
+        color: antiquewhite;
+        font-family: 'Special Elite', cursive;
+        text-decoration: none;
+        border: 2px solid rgba(227, 214, 214, 0.846);
+        border-radius: 4px;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 1px 1px 5px 1px #ffffffb0;
+    }
+
+    #what-is-it {
+        width: 420px;
+        text-align: left;
+        border: solid 3px rgba(227, 214, 214, 0.846);
+        margin-left: 30px;
+        box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
+    }
+
+    #what-is-it p {
+        margin-left: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #challenges {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    #challenges h2 {
+        border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+        border-right: 2px solid rgba(227, 214, 214, 0.846);;
+        width: 200px;
+        box-shadow: 4px 4px 4px 1px rgba(227, 214, 214, 0.507);
+    }
+
+    #game-space {
+        border: solid 3px rgba(227, 214, 214, 0.846);
+        box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
+    }
+
+    #mistakes {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 100px;
+        padding-top: 40px;
+    }
+
+    #mistakes h2 {
+        border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+        border-left: 2px solid rgba(227, 214, 214, 0.846);;
+        width: 200px;
+        box-shadow: -6px 4px 4px 1px rgba(227, 214, 214, 0.507);
+    }
+
+    #demo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #demo a {
+        font-size: 28px;
+        border: 4px solid rgba(227, 214, 214, 0.846);
+        border-radius: 5px;
+        color: rgba(227, 214, 214, 0.846);
+        padding: 5px 20px 5px 20px;
+        background-color: rgba(249, 246, 246, 0.112);
+        box-shadow: 2px 4px 8px 8px #000000;
+    }
+
+    #demo a:hover {
+        box-shadow: 2px 4px 8px 8px #ffffffb0;
+        border: 8px solid rgba(227, 214, 214, 0.846);
+        font-weight: 700;
+        text-decoration: none;
+    }
+
 }
 
-h1 {
-    font-family: 'Special Elite', cursive;
-    font-size: 72px;
-    color: antiquewhite;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
+@media (min-width:750px) {
 
-h2 {
-    font-family: 'Special Elite', cursive;
-    font-size: 32px;
-    color: antiquewhite;
-    text-align: center;
-    margin-top: 20px;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.879);
+    }
 
-h4 {
-    font-family:'Courier New', Courier, monospace;
-    color: antiquewhite;
-    text-align: center;
-    margin-bottom: 10px;
-}
+    h1 {
+        font-family: 'Special Elite', cursive;
+        font-size: 72px;
+        color: antiquewhite;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
 
-h5 {
-    font-family:'Courier New', Courier, monospace;
-    color:antiquewhite;
-    text-align: center;
-}
+    h2 {
+        font-family: 'Special Elite', cursive;
+        font-size: 32px;
+        color: antiquewhite;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-p {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
-    color: white;
-}
+    h4 {
+        font-family:'Courier New', Courier, monospace;
+        color: antiquewhite;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-#nav-bar {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
-    background-color: #000000;
-}
+    h5 {
+        font-family:'Courier New', Courier, monospace;
+        color:antiquewhite;
+        text-align: center;
+    }
 
-#nav-bar ul {
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
-    list-style: none;
-}
+    p {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 18px;
+        color: white;
+    }
 
-#nav-bar a {
-    color: antiquewhite;
-    font-family: 'Special Elite', cursive;
-    text-decoration: none;
-    border: 2px solid rgba(227, 214, 214, 0.846);
-    border-radius: 4px;
-    padding: 5px 10px 5px 10px;
-    box-shadow: 1px 1px 5px 1px #ffffffb0;
-}
+    #nav-bar {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+        background-color: #000000;
+    }
 
-#what-is-it {
-    width: 420px;
-    text-align: left;
-    border: solid 3px rgba(227, 214, 214, 0.846);
-    margin-left: 30px;
-    box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
-}
+    #nav-bar ul {
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+        list-style: none;
+    }
 
-#what-is-it p {
-    margin-left: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    #nav-bar a {
+        color: antiquewhite;
+        font-family: 'Special Elite', cursive;
+        text-decoration: none;
+        border: 2px solid rgba(227, 214, 214, 0.846);
+        border-radius: 4px;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 1px 1px 5px 1px #ffffffb0;
+    }
 
-#challenges {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    height: 300px;
-}
+    #what-is-it {
+        width: 420px;
+        text-align: left;
+        border: solid 3px rgba(227, 214, 214, 0.846);
+        margin-left: 30px;
+        box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
+    }
 
-#challenges h2 {
-    border-bottom: 3px solid rgba(227, 214, 214, 0.846);
-    border-right: 2px solid rgba(227, 214, 214, 0.846);;
-    width: 200px;
-    box-shadow: 4px 4px 4px 1px rgba(227, 214, 214, 0.507);
-}
+    #what-is-it p {
+        margin-left: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-#game-space {
-    border: solid 3px rgba(227, 214, 214, 0.846);
-    box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
-}
+    #challenges {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 300px;
+    }
 
-#mistakes {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 100px;
-    padding-top: 40px;
-}
+    #challenges h2 {
+        border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+        border-right: 2px solid rgba(227, 214, 214, 0.846);;
+        width: 200px;
+        box-shadow: 4px 4px 4px 1px rgba(227, 214, 214, 0.507);
+    }
 
-#mistakes h2 {
-    border-bottom: 3px solid rgba(227, 214, 214, 0.846);
-    border-left: 2px solid rgba(227, 214, 214, 0.846);;
-    width: 200px;
-    box-shadow: -6px 4px 4px 1px rgba(227, 214, 214, 0.507);
-}
+    #game-space {
+        border: solid 3px rgba(227, 214, 214, 0.846);
+        box-shadow: 2px 4px 8px 8px rgba(227, 214, 214, 0.507);
+    }
 
-#demo {
-    display: flex;
-    justify-content: center;
-}
+    #mistakes {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 100px;
+        padding-top: 40px;
+    }
 
-#demo a {
-    font-size: 28px;
-    border: 4px solid rgba(227, 214, 214, 0.846);
-    border-radius: 5px;
-    color: rgba(227, 214, 214, 0.846);
-    padding: 5px 20px 5px 20px;
-    background-color: rgba(249, 246, 246, 0.112);
-    box-shadow: 2px 4px 8px 8px #000000;
-}
+    #mistakes h2 {
+        border-bottom: 3px solid rgba(227, 214, 214, 0.846);
+        border-left: 2px solid rgba(227, 214, 214, 0.846);;
+        width: 200px;
+        box-shadow: -6px 4px 4px 1px rgba(227, 214, 214, 0.507);
+    }
 
-#demo a:hover {
-    box-shadow: 2px 4px 8px 8px #ffffffb0;
-    border: 8px solid rgba(227, 214, 214, 0.846);
-    font-weight: 700;
-    text-decoration: none;
+    #demo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #demo a {
+        font-size: 28px;
+        border: 4px solid rgba(227, 214, 214, 0.846);
+        border-radius: 5px;
+        color: rgba(227, 214, 214, 0.846);
+        padding: 5px 20px 5px 20px;
+        background-color: rgba(249, 246, 246, 0.112);
+        box-shadow: 2px 4px 8px 8px #000000;
+    }
+
+    #demo a:hover {
+        box-shadow: 2px 4px 8px 8px #ffffffb0;
+        border: 8px solid rgba(227, 214, 214, 0.846);
+        font-weight: 700;
+        text-decoration: none;
+    }
+
 }
