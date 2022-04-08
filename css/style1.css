@@ -30,7 +30,7 @@ h4 {
 
 h5 {
     font-family:'Courier New', Courier, monospace;
-    color: antiquewhite;
+    color:antiquewhite;
     text-align: center;
 }
 
@@ -68,10 +68,15 @@ p {
     box-shadow: 4px 4px 4px 1px rgba(227, 214, 214, 0.507);
 }
 
+#game-space {
+    border: 2px solid white
+}
+
 #mistakes {
     display: flex;
     justify-content: flex-start;
     margin-left: 40px;
+    padding-top: 40px;
 }
 
 #mistakes h2 {
